@@ -16,4 +16,3 @@ class HomeWorksChecker implements AutoCloseable {
         throw new ArrayIndexOutOfBoundsException("ArrayIndexOutOfBoundsException");
     }
 }
-
