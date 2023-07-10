@@ -5,7 +5,7 @@ public class Start {
         try (HomeWorksChecker hmwc = new HomeWorksChecker()) {
             throw new RuntimeException("RuntimeException");
         } catch (RuntimeException e) {
-            throw new ArithmeticException("ArithmeticException");//Выведиться ArithmeticException.
+            throw new ArithmeticException("ArithmeticException");//Выведиться ArithmeticException
         }
     }
 }
